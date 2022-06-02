@@ -1,0 +1,180 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+*{font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;}
+body{
+    background-image: linear-gradient(-120deg,#e79316,#ced510);
+    color: white;
+    font-size: 100%;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #e5e5e5;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    border-bottom:2px solid #ffffff;
+    min-width: 400px;
+}
+a{
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+}
+.cabecalho-imagem{
+    height: 60px;
+    width: 60px;
+}
+.cabecalho-itens{
+    display: flex;
+    gap: 30px;
+    font-weight: bold;
+}
+.conteudo-principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 520px;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.392);
+}
+.logo2{
+    height: 500px;
+    width: 500px;
+}
+.conteudo-principal{
+    margin-top: 85px;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    gap: 20px;
+    justify-content: center;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+    min-width: 50px;
+}
+.Free{background-color: rgb(59, 59, 59);
+    color: white;
+    font-weight: 700;
+    border-color:rgb(59, 59, 59);
+    border-radius: 80px;
+    height: 50px;
+    width: 120px;
+}
+.Premium{
+    background-color: #ca8009;
+    color: white;
+    font-weight: 700;
+    border-color: white;
+    border-radius: 80px;
+    width: 120px;
+    height: 50px;
+}
+.conteudo-secundario{
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    font-size: 150%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-direction: column;
+    columns: 2;
+}
+.logo2{
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+}
+h2{
+    display: flex;
+    margin: 50px;
+    font-family: 'Kanit', sans-serif;;
+    align-items: center;
+}
+footer{
+    border-top: 0.2px solid white;
+    background-color: rgba(0, 0, 0, 0.319);
+}
+.logo3{
+    display: block;
+    margin: auto;
+    padding: 42px;
+    height: 150px;
+}
+.Free:hover{
+    background-color: rgba(0, 0, 0, 0.764);
+}
+.Free:active{
+    background-color: rgb(0, 0, 0);
+}
+.Premium:hover{
+    background-color: #9c6308;
+    color: white;
+    border-color: white;
+}
+.Premium:active{
+    background-color: #6b470c;
+}
+a:hover{color:#ca8009;
+}
+.baixar{
+    border-right: 0.2px solid rgb(0, 0, 0);
+    padding-right: 40px
+}
+p{
+    font-size: 20px;
+}
+.texto-secundario{
+    display: flex;
+    justify-content: center;
+    margin: 32px;
+    min-width: 300px;
+}
+.p-titulo{
+    font-weight: 700;
+    font-size: 25px;
+}
+.p-subtitulo{
+    font-weight: 400;
+}
+ul{
+    list-style: none;
+}
+.offline{
+    margin-top: 3px;
+    display: flex;
+    flex-direction: row;
+}
+.box{
+    display: block;
+    width: 100%;
+    margin-left: 0px;
+    flex-wrap: wrap; 
+    padding: 20px 30px;
+    columns: 2; 
+    text-align: center;
+    min-width: 510px;
+}
+.p-subtitulo{
+    display: inline-block;
+    width: 100%;
+    flex-grow: 1;
+    margin: 0px 0px;
+    padding-bottom: 50px;
+}
+.p-titulo{
+    display: inline-block;
+    width: 100%;
+    flex-grow: 1;
+    margin: 16px 0;
+}
