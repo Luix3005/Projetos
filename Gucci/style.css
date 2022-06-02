@@ -9,7 +9,7 @@
 }
 body{
     font-size: 100%;
-    background: linear-gradient(68.15deg,#E38EE8,#8E9AE8);
+    background-color: #8278c2;
     color: white;
 }
 .cabecalho{
@@ -30,10 +30,11 @@ a{
 }
 .cabecalhoimg{
     height: 72px;
+    margin-right: 10px;
 }
 .cabecalhomenu{
     display: flex;
-    gap: 32px;
+    gap: 12px;
     font-family: 'Cinzel', serif;
     font-weight: 400;
     font-size: 15px;
@@ -42,6 +43,8 @@ a{
     border-top: 0.2px solid white;
     margin-bottom: 48px;
     margin-top: 75px;
+    min-width: 300px;
+
 }
 .conteudo-principal{
     display: flex;
@@ -49,6 +52,7 @@ a{
     gap: 32px;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 div{
     display: flex;
@@ -67,7 +71,7 @@ font-weight: 400;
 font-size: 24px;
 }
 button{
-    background-color: #A094F2;
+    background-color: #cd86d1;
     color: white;
     width: 250px;
     height: 60px;
@@ -100,6 +104,7 @@ button{
 footer{
     padding: 25px;
     border-top: 0.2px solid white;
+    min-width: 300px;
 }
 footer > img{
     height: 48px;
@@ -107,7 +112,7 @@ footer > img{
     margin: 0 auto;
 }
 .botao-principal:hover{
-    background-color:#8278c2;
+    background-color:#b274b6;
 }
 .cabecalhomenu-item:hover{
     color: #e881ee;
@@ -128,19 +133,4 @@ html{
 }
 p{
     text-align: justify;
-}
-.voltar{
-
-    height: 60px;
-    border-radius: 50%;
-    width: 60px;
-    margin: 30px;
-    display: flex;
-    justify-content: space-around;
-    box-shadow: black;
-    background-color: #A094F2;
-    align-items: center;
-    position: fixed;
-    right: 15px;
-    bottom: 5px;
 }
