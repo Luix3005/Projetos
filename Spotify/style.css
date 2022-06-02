@@ -24,6 +24,7 @@ body{
     left: 0;
     top: 0;
     border-bottom:2px solid #ffffff;
+    min-width: px;
 }
 a{
     color: rgb(8, 8, 8);
@@ -35,7 +36,7 @@ a{
 }
 .cabecalho-itens{
     display: flex;
-    gap: 30px;
+    gap: 20px;
     font-weight: bold;
 }
 .conteudo-principal{
@@ -43,6 +44,7 @@ a{
     align-items: center;
     justify-content: space-around; 
     text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.392);
+    min-width: 431px;
 }
 .logo2{
     height: 500px;
@@ -87,6 +89,7 @@ a{
     margin-top: 20px;
     flex-direction: column;
     columns: 2;
+    min-width: 431px;
 }
 .logo2{
     height: 300px;
@@ -101,6 +104,7 @@ h2{
 }
 footer{
     border-top: 0.2px solid white;
+    min-width: 433px;
 }
 .logo3{
     display: block;
@@ -126,7 +130,7 @@ a:hover{color:#040481;
 }
 .baixar{
     border-right: 0.2px solid rgb(0, 0, 0);
-    padding-right: 40px
+    padding-right: 20px
 }
 p{
     font-size: 20px;
@@ -157,7 +161,7 @@ ul{
     flex-wrap: wrap; 
     columns: 2; 
     text-align: center;
-    min-width: 280px;
+    min-width: 431px;
 }
 .p-subtitulo{
     display: inline-block;
