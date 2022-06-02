@@ -157,7 +157,7 @@ ul{
     flex-wrap: wrap; 
     columns: 2; 
     text-align: center;
-    min-width: 480px;
+    min-width: 280px;
 }
 .p-subtitulo{
     display: inline-block;
