@@ -1,0 +1,104 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Barlow', sans-serif;
+    text-decoration: none;
+}
+.logotitulo{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    position: relative;
+    text-decoration: none;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    transition: 0.8s;
+    color: white;
+}
+.cabecalhoitens{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    font-weight: 600;
+    font-size: 18px;
+    position: relative;
+    align-items: flex-start;
+    text-decoration: overline;
+    color: white;
+}
+ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cabecalho{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0px 0px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.538);
+    align-items: center;
+    z-index: 1000;
+}
+main{
+    width: auto;
+}
+.video1{
+    min-width: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+    overflow: hidden; 
+    z-index: 1;
+}
+.video2{
+    background-size: cover;
+    min-width: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+    z-index: 3;
+}
+.foto1{
+    min-width: 100%;
+    max-width: 100%;
+}
+.foto2{
+    min-width: 100%;
+    max-width: 100%;}
+.Principal{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    width: 100%;
+    margin-top: -500px;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+h2{
+    color: white;
+}
+button{
+    height: 40px;
+    width: 300px;
+    font-weight: 600;
+    margin-top: 6px;
+}
+.cabecalho:hover{
+    background-color: white;
+    transition: 0.8s;
+    color: black;
+}
+.cabecalhoitens:hover{
+    color: black;
+    transition: 0.8s;
+}
