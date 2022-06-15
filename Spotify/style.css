@@ -7,7 +7,7 @@
     padding: 0;
 }
 body{
-    background-color: #040481;
+    background-color: #409424;
     color: white;
     font-size: 100%;
 }
@@ -71,7 +71,7 @@ a{
     width: 120px;
 }
 .Premium{
-    background-color: #040481;
+    background-color: #33831b;
     color: white;
     font-weight: 700;
     border-color: white;
@@ -120,13 +120,13 @@ footer{
 }
 .Premium:hover{
     background-color: white;
-    color: #040481;
-    border-color: #040481;
+    color: #22861f;
+    border-color: #1f7919;
 }
 .Premium:active{
     background-color: rgb(204, 204, 204);
 }
-a:hover{color:#040481;
+a:hover{color:#1f8521;
 }
 .baixar{
     border-right: 0.2px solid rgb(0, 0, 0);

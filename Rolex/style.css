@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&display=swap');
+*{  margin: 0px;
+    padding: 0px;
+    font-family: 'Cormorant Garamond', serif;
+    scroll-behavior: smooth;}
+header{
+    width: 100%;
+    display: block;
+    position: fixed;
+    background-color: rgb(251, 251, 251);
+    margin: auto;
+    padding: 10px;
+    font-size: larger;
+    text-align: center;
+    color: rgb(147, 147, 38);
+}
+.video1{
+    width: 100%;
+    display: block;
+}
+main{
+    width: auto;
+}
+h2{
+    font-size: 7vh;
+    color: rgb(12, 12, 198)
+}
+.texto1{
+    display: block;
+    padding: 10px;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 20%;
+    margin-bottom: 5px;
+    justify-content: center;
+ }
+.texto2{
+    font-size: 3vh;
+    margin-bottom: 2%;
+    margin-top: 5px;
+    margin-right: 20%;
+    margin-left: 10%;
+    font-weight: 700;
+ }
+ .botoes{
+     display: flex;
+     margin-left: 10%;
+     margin-bottom: 6%;
+     gap: 15px;
+     margin-top: 30px;
+ }
+ #botao1{
+     font-size: 1.1em;
+     font-weight: 700;
+     color: blue;
+     padding: 10px;
+     border-radius: 80px;
+     height: 50px;
+     width: 200px;
+     border-color: blue;
+ }
+ #botao2{
+    font-size: 1.1em;
+    font-weight: 700;
+    color: blue;
+    padding: 10px;
+    border-radius: 80px;
+    height: 50px;
+    width: 200px;
+    border-color:transparent;
+ }
+h3{
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: larger;
+    border-top: 1px solid rgb(43, 8, 199);
+    color: rgb(40, 11, 205);
+}
+.social{
+    margin: 0px auto 50px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+#twitter{
+    height: 60px;
+    width: 60px;
+    border-radius: 80px;
+    border-color: rgb(71, 179, 215);
+}
+#facebook{
+    height: 60px;
+    width: 60px;
+    border-radius: 80px;
+    border-color: blue;
+}
+#pinterest{
+    height: 60px;
+    width: 60px;
+    border-radius: 80px;
+    border-color: red;
+}
+#twitter:hover{
+    background-color: rgb(98, 192, 223);
+    border: 300px;
+    transition: 0.5s;
+}
+#facebook:hover{
+    background-color: rgb(4, 75, 227);
+    border: 300px;
+    transition: 0.5s;
+}
+#pinterest:hover{
+    background-color: rgb(227, 22, 22);
+    border: 300px;
+    transition: 0.5s;
+}
+#botao1:hover{
+    color: white;
+    background-color: blue;
+    transition: 0.7s;
+}
+#botao2:hover{
+    color: rgba(169, 141, 40, 0.967);
+    transition: 0.5s;
+}
+#detalhe{
+    text-decoration: none;
+    color: rgb(137, 137, 41);
+    cursor: default;
+}
